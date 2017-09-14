@@ -4,11 +4,6 @@
 class SMenu : public Scene
 {
 private:
-	float y;
-
-	texture* chikage;
-	texture* yuri;
-
 	OChar chara;
 
 public:

@@ -49,6 +49,15 @@
     <Filter Include="소스 파일\Game\02 Menu">
       <UniqueIdentifier>{8eb6c9c5-2500-4ad0-a381-4820981d0216}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FrameWork\Manager\SoundManager">
+      <UniqueIdentifier>{2784e1de-54d9-457f-8520-0943620f5868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\TextManager">
+      <UniqueIdentifier>{8d9625f8-81c4-44ac-b7fa-0a90761ba628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\ObjectManager">
+      <UniqueIdentifier>{b523513a-0469-4bd9-b380-85124c49d28d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -93,6 +102,12 @@
     <ClInclude Include="OChar.h">
       <Filter>소스 파일\Game\02 Menu</Filter>
     </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>FrameWork\Manager\TextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>FrameWork\Manager\ObjectManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -127,6 +142,12 @@
     </ClCompile>
     <ClCompile Include="OChar.cpp">
       <Filter>소스 파일\Game\02 Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>FrameWork\Manager\TextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>FrameWork\Manager\ObjectManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

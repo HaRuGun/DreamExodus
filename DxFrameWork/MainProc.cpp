@@ -53,6 +53,11 @@ int MainProc::Release()
 	SCENEMANAGER->Release();
 
 	PostQuitMessage(0);
+
+	ImageManager::ReleaseSingleton();
+	InputManager::ReleaseSingleton();
+	SceneManager::ReleaseSingleton();
+	TextManager::ReleaseSingleton();
 	return 0;
 }
 

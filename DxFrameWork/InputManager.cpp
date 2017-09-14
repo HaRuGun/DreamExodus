@@ -14,6 +14,9 @@ InputManager::~InputManager()
 
 void InputManager::Init()
 {
+	pMouse = { 0, 0 };
+	bMouseClick = false;
+
 	memset(bKeyState, false, sizeof(bKeyState));
 	memset(bPrevKeyState, false, sizeof(bPrevKeyState));
 }

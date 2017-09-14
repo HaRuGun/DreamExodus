@@ -6,6 +6,7 @@
 
 // Windows
 #include <windows.h>
+#include <crtdbg.h>
 
 // C
 #include <stdlib.h>
@@ -28,9 +29,11 @@
 #include "SimpleFunction.h"
 #include "ImageManager.h"
 #include "InputManager.h"
+#include "TextManager.h"
 
 #include "Object.h"
 #include "OChar.h"
+#include "ObjectManager.h"
 
 #include "Scene.h"
 #include "Scene_Start.h"
