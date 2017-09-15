@@ -26,7 +26,7 @@ void Object::Init()
 
 void Object::Update()
 {
-
+	SetCollider(0, 0, tex.info.Width / iCountX, tex.info.Height / iCountY);
 }
 
 

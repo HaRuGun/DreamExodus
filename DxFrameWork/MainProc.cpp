@@ -24,7 +24,7 @@ int MainProc::Init()
 int MainProc::Update()
 {
 	INPUTMANAGER->Update();
-
+	SOUNDMANAGER->Update();
 	SCENEMANAGER->Update();
 
 	return 0;
@@ -58,6 +58,7 @@ int MainProc::Release()
 	InputManager::ReleaseSingleton();
 	SceneManager::ReleaseSingleton();
 	TextManager::ReleaseSingleton();
+	SoundManager::ReleaseSingleton();
 	return 0;
 }
 

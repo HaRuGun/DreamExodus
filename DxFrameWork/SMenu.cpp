@@ -16,12 +16,21 @@ void SMenu::Init()
 	chara.Init();
 	chara.CreateObject("Texture/chara.jpg", 50, 50, 0, 255.0f);
 	chara.CreateFrame(4, 2);
+
+	SOUNDMANAGER->LoadSound(back, "Sound/GO.mp3", BGM);
+	SOUNDMANAGER->PlaySound(back);
+
+	SOUNDMANAGER->LoadSound(ef, "sound/Bonus Track.mp3", SE);
 }
 
 
 void SMenu::Update()
 {
-	chara.Update();
+	if (chara.GetAct())
+		chara.Update();
+
+	if (INPUTMANAGER->IsKeyDown('A'))
+		SOUNDMANAGER->PlaySound(ef);
 }
 
 

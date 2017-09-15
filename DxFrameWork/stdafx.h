@@ -25,11 +25,17 @@
 #pragma comment(lib, "./x86/d3d9.lib")
 #pragma comment(lib, "./x86/d3dx9.lib")
 
+// FMOD
+#include "inc/fmod.hpp"
+#include "inc/fmod_errors.h"
+#pragma comment (lib, "lib/fmodex_vc.lib")
+
 // Custom
 #include "SimpleFunction.h"
 #include "ImageManager.h"
 #include "InputManager.h"
 #include "TextManager.h"
+#include "SoundManager.h"
 
 #include "Object.h"
 #include "OChar.h"

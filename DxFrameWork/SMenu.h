@@ -5,6 +5,8 @@ class SMenu : public Scene
 {
 private:
 	OChar chara;
+	SoundData back;
+	SoundData ef;
 
 public:
 	void Init();

@@ -108,6 +108,9 @@
     <ClInclude Include="ObjectManager.h">
       <Filter>FrameWork\Manager\ObjectManager</Filter>
     </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\Manager\SoundManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -148,6 +151,9 @@
     </ClCompile>
     <ClCompile Include="ObjectManager.cpp">
       <Filter>FrameWork\Manager\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\Manager\SoundManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
