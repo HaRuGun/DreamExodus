@@ -1,24 +1,22 @@
 #pragma once
-
+#include "SMain.h"
 
 class SceneManager : public Singleton<SceneManager>
 {
 private:
 	Scene* pCurrentScene;
 
-	Scene_Start SScene;
-	SMenu sMenu;
+	SMain sMain;
 
 public:
 	void Init();
 	void Update();
 	void Render();
 	void Release();
-
+	 
 	void ChageScene(Scene * pScene);
 
-	Scene* GetStartScene() { return &SScene; }
-	Scene* GetMenuScene() { return &sMenu; }
+	Scene* GetSMainScene() { return &sMain; }
 
 	SceneManager() {}
 	virtual ~SceneManager() {}

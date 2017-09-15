@@ -3,9 +3,8 @@
 
 void SceneManager::Init()
 {
-	//pCurrentScene = nullptr;
-	pCurrentScene = &SScene;
-	SScene.Init();
+	pCurrentScene = &sMain;
+	sMain.Init();
 }
 
 

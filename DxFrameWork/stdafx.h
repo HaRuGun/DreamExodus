@@ -38,16 +38,15 @@
 #include "SoundManager.h"
 
 #include "Object.h"
-#include "OChar.h"
 #include "ObjectManager.h"
 
 #include "Scene.h"
-#include "Scene_Start.h"
-#include "SMenu.h"
 #include "SceneManager.h"
 
 #include "MainProc.h"
 #include "WinMain.h"
+
+#include "SMain.h"
 
 extern HWND hWnd;
 extern LPDIRECT3DDEVICE9 lpd3dDevice;

@@ -151,13 +151,11 @@
     <ClInclude Include="MainProc.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="ObjectManager.h" />
-    <ClInclude Include="OChar.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="Scene_Start.h" />
     <ClInclude Include="SimpleFunction.h" />
     <ClInclude Include="Singleton.h" />
-    <ClInclude Include="SMenu.h" />
+    <ClInclude Include="SMain.h" />
     <ClInclude Include="SoundManager.h" />
     <ClInclude Include="TextManager.h" />
     <ClInclude Include="WinMain.h" />
@@ -170,11 +168,9 @@
     <ClCompile Include="MainProc.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="ObjectManager.cpp" />
-    <ClCompile Include="OChar.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="Scene_Start.cpp" />
-    <ClCompile Include="SMenu.cpp" />
+    <ClCompile Include="SMain.cpp" />
     <ClCompile Include="SoundManager.cpp" />
     <ClCompile Include="TextManager.cpp" />
     <ClCompile Include="WinMain.cpp" />

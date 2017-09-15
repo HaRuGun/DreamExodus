@@ -35,11 +35,6 @@ int MainProc::Render()
 {
 	IMAGEMANAGER->Begin();
 
-	if (INPUTMANAGER->IsKeyDown(VK_RETURN))
-		SCENEMANAGER->ChageScene(SCENEMANAGER->GetMenuScene());
-	if (INPUTMANAGER->IsKeyDown(VK_BACK))
-		SCENEMANAGER->ChageScene(SCENEMANAGER->GetStartScene());
-
 	SCENEMANAGER->Render();
 
 	IMAGEMANAGER->End();

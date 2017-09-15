@@ -43,12 +43,6 @@
     <Filter Include="소스 파일\Game">
       <UniqueIdentifier>{2d09c89d-36fb-4f70-8e45-4b7bb343415e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Game\01 Start">
-      <UniqueIdentifier>{65d8b302-4bfc-48f8-b0f0-8726a07d0dcd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Game\02 Menu">
-      <UniqueIdentifier>{8eb6c9c5-2500-4ad0-a381-4820981d0216}</UniqueIdentifier>
-    </Filter>
     <Filter Include="FrameWork\Manager\SoundManager">
       <UniqueIdentifier>{2784e1de-54d9-457f-8520-0943620f5868}</UniqueIdentifier>
     </Filter>
@@ -57,6 +51,9 @@
     </Filter>
     <Filter Include="FrameWork\Manager\ObjectManager">
       <UniqueIdentifier>{b523513a-0469-4bd9-b380-85124c49d28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\SMain">
+      <UniqueIdentifier>{75988681-aae2-4512-95f6-691b062f665f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -93,15 +90,6 @@
     <ClInclude Include="Object.h">
       <Filter>FrameWork\Object</Filter>
     </ClInclude>
-    <ClInclude Include="Scene_Start.h">
-      <Filter>소스 파일\Game\01 Start</Filter>
-    </ClInclude>
-    <ClInclude Include="SMenu.h">
-      <Filter>소스 파일\Game\02 Menu</Filter>
-    </ClInclude>
-    <ClInclude Include="OChar.h">
-      <Filter>소스 파일\Game\02 Menu</Filter>
-    </ClInclude>
     <ClInclude Include="TextManager.h">
       <Filter>FrameWork\Manager\TextManager</Filter>
     </ClInclude>
@@ -110,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="SoundManager.h">
       <Filter>FrameWork\Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SMain.h">
+      <Filter>소스 파일\Game\SMain</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -137,15 +128,6 @@
     <ClCompile Include="Object.cpp">
       <Filter>FrameWork\Object</Filter>
     </ClCompile>
-    <ClCompile Include="Scene_Start.cpp">
-      <Filter>소스 파일\Game\01 Start</Filter>
-    </ClCompile>
-    <ClCompile Include="SMenu.cpp">
-      <Filter>소스 파일\Game\02 Menu</Filter>
-    </ClCompile>
-    <ClCompile Include="OChar.cpp">
-      <Filter>소스 파일\Game\02 Menu</Filter>
-    </ClCompile>
     <ClCompile Include="TextManager.cpp">
       <Filter>FrameWork\Manager\TextManager</Filter>
     </ClCompile>
@@ -154,6 +136,9 @@
     </ClCompile>
     <ClCompile Include="SoundManager.cpp">
       <Filter>FrameWork\Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SMain.cpp">
+      <Filter>소스 파일\Game\SMain</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
