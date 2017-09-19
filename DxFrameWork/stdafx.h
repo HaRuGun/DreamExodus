@@ -43,6 +43,8 @@
 #include "Scene.h"
 #include "SceneManager.h"
 
+#include "Button.h"
+
 #include "MainProc.h"
 #include "WinMain.h"
 

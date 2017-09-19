@@ -11,6 +11,7 @@ private:
 	
 	POINT pMouse;
 	bool bMouseClick;
+	bool bPrevMouseClick;
 
 	void Init();
 
@@ -24,6 +25,7 @@ public:
 
 	void SetMouseClick(bool bMouseClick);
 	bool GetMouseClick();
+	bool GetPrevMouseClick();
 	POINT GetMousePos();
 
 	InputManager();

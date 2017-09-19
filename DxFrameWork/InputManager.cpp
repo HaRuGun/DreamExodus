@@ -26,6 +26,8 @@ void InputManager::Update()
 {
 	memcpy(bPrevKeyState, bKeyState, sizeof(bPrevKeyState));
 
+	bPrevMouseClick = bMouseClick;
+
 	for (int i = 0; i < KEYMAX; i++)
 		bKeyState[i] = GetAsyncKeyState(i) & 0x8000;
 
@@ -85,8 +87,12 @@ POINT InputManager::GetMousePos()
 	return pMouse;
 }
 
-
 bool InputManager::GetMouseClick()
 {
 	return bMouseClick;
+}
+
+bool InputManager::GetPrevMouseClick()
+{
+	return bPrevMouseClick;
 }

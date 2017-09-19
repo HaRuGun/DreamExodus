@@ -1,14 +1,17 @@
 #pragma once
 #include "Scene.h"
+#include "Button.h"
+
 class SMain :
 	public Scene
 {
-public:
+private:
 
-	void Init();
-	void Update();
-	void Render();
-	void Release();
+public:
+	virtual void Init();
+	virtual void Update();
+	virtual void Render();
+	virtual void Release();
 
 	SMain();
 	virtual ~SMain();

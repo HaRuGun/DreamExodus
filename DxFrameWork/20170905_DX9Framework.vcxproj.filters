@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\Game\SMain">
       <UniqueIdentifier>{75988681-aae2-4512-95f6-691b062f665f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FrameWork\Object\Button">
+      <UniqueIdentifier>{fa28caeb-2126-4e42-a0ff-f07d701e77ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -102,6 +105,9 @@
     <ClInclude Include="SMain.h">
       <Filter>소스 파일\Game\SMain</Filter>
     </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>FrameWork\Object\Button</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -139,6 +145,9 @@
     </ClCompile>
     <ClCompile Include="SMain.cpp">
       <Filter>소스 파일\Game\SMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>FrameWork\Object\Button</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
