@@ -14,7 +14,7 @@ void SMain::Init()
 
 }
 
-void SMain::Update()
+void SMain::Update(double deltaTime)
 {
 
 }

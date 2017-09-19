@@ -24,7 +24,7 @@ void Object::Init()
 }
 
 
-void Object::Update()
+void Object::Update(double deltaTime)
 {
 	SetCollider(0, 0, tex.info.Width / iCountX, tex.info.Height / iCountY);
 }

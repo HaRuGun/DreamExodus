@@ -18,7 +18,7 @@ protected:
 
 public:
 	virtual void Init();
-	virtual void Update();
+	virtual void Update(double deltaTime);
 	virtual void Render();
 	virtual void Release();
 

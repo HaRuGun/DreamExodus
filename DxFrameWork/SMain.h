@@ -6,7 +6,7 @@ class SMain :
 public:
 
 	void Init();
-	void Update();
+	void Update(double deltaTime);
 	void Render();
 	void Release();
 

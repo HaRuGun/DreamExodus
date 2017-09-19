@@ -21,11 +21,11 @@ int MainProc::Init()
 }
 
 
-int MainProc::Update()
+int MainProc::Update(double deltaTime)
 {
 	INPUTMANAGER->Update();
 	SOUNDMANAGER->Update();
-	SCENEMANAGER->Update();
+	SCENEMANAGER->Update(deltaTime);
 
 	return 0;
 }

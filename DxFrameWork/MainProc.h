@@ -8,7 +8,7 @@ private:
 
 public:
 	int Init();
-	int Update();
+	int Update(double deltaTime);
 	int Render();
 	int Release();
 

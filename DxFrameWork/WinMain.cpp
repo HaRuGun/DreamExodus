@@ -76,12 +76,14 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	MSG msg;
 
-	const float timeScale = 0.001f;
-	const float frame = 1.0f / 30.0f;
+	const double timeScale = 0.001f;
+	const double frame = 1.0f / 30.0f;
 
 	__int64 curTime;
 	__int64 lastTime = timeGetTime();
-	float mainTime = 0.0f;
+
+	double mainTime = 0.0f;
+	double deltaTime;
 
 	while (TRUE)
 	{
@@ -100,14 +102,15 @@ int WINAPI WinMain(HINSTANCE hInstance,
 		else if (main.GetAct())
 		{
 			curTime = timeGetTime();
-			mainTime += (curTime - lastTime) * timeScale;
+			deltaTime = (curTime - lastTime) * timeScale;
+			mainTime += deltaTime;
 			lastTime = curTime;
 
 			while (mainTime >= frame)
 			{
 				mainTime -= frame;
 				
-				main.Update();
+				main.Update(deltaTime);
 				
 				lpd3dDevice->Clear(0, NULL, D3DCLEAR_STENCIL | D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER, 0xff0000ff, 1.0f, 0);
 				lpd3dDevice->BeginScene();

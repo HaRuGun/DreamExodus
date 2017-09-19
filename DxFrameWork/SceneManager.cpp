@@ -14,9 +14,9 @@ void SceneManager::Release()
 }
 
 
-void SceneManager::Update()
+void SceneManager::Update(double deltaTime)
 {
-	pCurrentScene->Update();
+	pCurrentScene->Update(deltaTime);
 }
 
 

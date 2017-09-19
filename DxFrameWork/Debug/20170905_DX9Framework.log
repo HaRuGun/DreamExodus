@@ -1,3 +1,28 @@
-﻿  MainProc.cpp
-  20170905_DX9Framework.vcxproj -> C:\Users\skyti\OneDrive\문서\GitHub\DreamExodus\DxFrameWork\Debug\20170905_DX9Framework.exe
-  20170905_DX9Framework.vcxproj -> C:\Users\skyti\OneDrive\문서\GitHub\DreamExodus\DxFrameWork\Debug\20170905_DX9Framework.pdb (Full PDB)
+﻿  stdafx.cpp
+  WinMain.cpp
+  TextManager.cpp
+c:\users\haru\documents\github\dreamexodus\dxframework\textmanager.cpp(44): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\textmanager.cpp(44): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SoundManager.cpp
+  SMain.cpp
+  SceneManager.cpp
+  Scene.cpp
+  ObjectManager.cpp
+  Object.cpp
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(29): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(53): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(54): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(66): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(76): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(82): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\object.cpp(83): warning C4244: '초기화 중': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainProc.cpp
+  InputManager.cpp
+c:\users\haru\documents\github\dreamexodus\dxframework\inputmanager.cpp(30): warning C4800: 'int': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+  ImageManager.cpp
+c:\users\haru\documents\github\dreamexodus\dxframework\imagemanager.cpp(89): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\haru\documents\github\dreamexodus\dxframework\imagemanager.cpp(89): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  20170905_DX9Framework.vcxproj -> C:\Users\HaRu\Documents\GitHub\DreamExodus\DxFrameWork\Debug\20170905_DX9Framework.exe
